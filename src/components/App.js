@@ -62,7 +62,7 @@ const App = () => {
               path="/organizationDetails/:id"
               element={<OrganizationDetails />}
             />
-            <Route path="/Addpets" element={<AddPet />} />
+            <Route path="/Addpet" element={<AddPet />} />
           </Routes>
           <Footer />
         </>
