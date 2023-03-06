@@ -45,7 +45,7 @@ In order for you to use the content on this repo ensure you have the following:
 - Open a terminal / command line interface on your computer.
 - Clone the repo by using the following to create a copy on your local machine:
        
-        git clone https://github.com/sainamercy/Petflix
+        git clone https://github.com/AlexTanui/Petfinder-phase3
 
 - Change directory to the repo folder:
        
@@ -61,8 +61,7 @@ In order for you to use the content on this repo ensure you have the following:
 - Take on the process in ``Alternative One`` above.
 - Remember to replace your username when cloning.
         
-        git clone https://github.com/sainamercy/Petflix
-
+        git clone https://github.com/AlexTanui/Petfinder-phase3
 ## Running the application
 
 To run the application, you can use the following steps to run the app.
@@ -79,7 +78,7 @@ To run the application, you can use the following steps to run the app.
 # Author
 
 This project was contributed by :
- - [Alex Tanui](https://github.com/sainamercy)
+ - [Alex Tanui](https://github.com/AlexTanui/Petfinder-phase3)
  
 
 
@@ -89,4 +88,4 @@ The project is licensed `ISC`
 
 # Support
 If you encounter any issues or have questions about using petflix, please contact us at support  
-https://petflix-nine.vercel.app/   We are happy to help.
+https://petfinder-phase3.netlify.app/   We are happy to help.
