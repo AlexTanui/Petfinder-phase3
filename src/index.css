@@ -134,11 +134,24 @@ img{
   height:150px;
 }
 #searchpets{
-  margin-left: 380px;
+  margin-left: 400px;
   width: 420px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 #addform{
   display: flex;
+  flex-direction: column;
+  width: 420px;
+  margin-left: 450px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+#addbtn{
+  background: blue;
+  margin-top:200px ;
+  color: rgb(240, 240, 248);
+  background-color: blue;
+  width: 50px;
 }

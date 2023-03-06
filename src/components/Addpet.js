@@ -24,25 +24,36 @@ function AddPet({ onAddPet }) {
 
   return (
     <form id="addform" onSubmit={handleSubmit}>
-      <input
+      <div> <img src="https://petsaddlife.org/wp-content/uploads/2022/08/Campaign-Banner.jpg" alt="" /> </div>
+      <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Pet name:  </label>
+    <input
         type="text"
-        placeholder="Name"
+       
         value={name}
         onChange={(event) => setName(event.target.value)}
       />
-      <input
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Description</label>
+    <input
         type="text"
-        placeholder="Description"
+       
         value={description}
         onChange={(event) => setDescription(event.target.value)}
       />
-       <input
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Insert image link</label>
+    <input
         type="link"
-        placeholder="insert image link"
+        
         value={description}
         onChange={(event) => setDescription(event.target.value)}
       />
-      <button type="submit">Add Pet</button>
+  </div>
+  <button type="submit" class="btn btn-primary">Add pet</button>
+  
     </form>
   );
 }
