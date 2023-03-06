@@ -30,6 +30,7 @@ This is a feature that enables the user to be able to search for Animals and Org
 ### Login 
 
   Click on the login button a dummy login it will redirect the user to a page with a dummy login form for the user to fill.
+  ``user name : Alex password:1234``
 
 # Development installation
 
