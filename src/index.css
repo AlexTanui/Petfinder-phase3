@@ -155,3 +155,12 @@ img{
   background-color: blue;
   width: 50px;
 }
+
+#title-pets{
+  display: flex;
+  text-align: center;
+  background: fixed;
+  background-color: blue;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
