@@ -30,7 +30,7 @@ function AnimalCollection() {
     <>
       <div>
       <div id="searchpets" class="input-group mb-3">
-  <input  placeholder="Search by pet name"
+  <input  placeholder="Search by bot title"
           value={searchTerm}
           onChange={e => setSearchTerm(e.target.value)} type="text" class="form-control"  aria-label="Recipient's username" aria-describedby="button-addon2"></input>
   <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
